@@ -19,6 +19,7 @@ if not exist "..\bin\windows\freeglut" (
     cmake --install . --config Release || exit /b 1
     cmake --build . --config Debug --parallel || exit /b 1
     cmake --install . --config Debug || exit /b 1
+    robocopy "..\..\..\bin\windows\freeglut\bin" "..\..\..\bin\windows\freeglut\lib" "freeglutd.pdb" /z
     cd ..\
     rmdir /s /q build
     cd ..

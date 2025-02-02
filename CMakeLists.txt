@@ -46,5 +46,4 @@ execute_process(
 
 find_package(FreeGLUT REQUIRED)
 
-add_executable(${PROJECT_NAME} src/main.c)
-target_link_libraries(${PROJECT_NAME} FreeGLUT::freeglut_static)
+add_subdirectory(src)

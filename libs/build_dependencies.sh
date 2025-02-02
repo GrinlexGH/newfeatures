@@ -12,7 +12,7 @@ if [ ! -d "../bin/linux/freeglut" ]; then
     fi
     mkdir -p build
     cd build
-    cmake -DINSTALL_PDB=ON -DFREEGLUT_BUILD_DEMOS=OFF -DCMAKE_INSTALL_PREFIX="../../../bin/linux/freeglut" $* ..
+    cmake -DFREEGLUT_BUILD_DEMOS=OFF -DCMAKE_INSTALL_PREFIX="../../../bin/linux/freeglut" $* ..
     cmake --build . --config Release --parallel
     cmake --install . --config Release
     cmake --build . --config Debug --parallel
