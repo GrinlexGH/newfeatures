@@ -18,7 +18,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <gl/glut.h>
+#include <gl/freeglut.h>
 
 static GLint T0 = 0;
 static GLint Frames = 0;

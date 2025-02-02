@@ -1,3 +1,5 @@
 build/
 .venv/
-CMakeUserPresets.json 
+CMakeUserPresets.json
+libs/bin/linux/*
+libs/bin/windows/*
