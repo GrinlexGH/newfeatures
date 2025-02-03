@@ -3,3 +3,4 @@ build/
 CMakeUserPresets.json
 libs/bin/linux/*
 libs/bin/windows/*
+.PVS-Studio/
